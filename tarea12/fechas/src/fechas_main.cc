@@ -32,11 +32,10 @@ int main(int argc, char* argv[]){
         fecha1.dia = stoi(fechas[i].substr(0,2));
         fecha1.mes = stoi(fechas[i].substr(3,5));
         fecha1.anio = stoi(fechas[i].substr(6,8));
-        v
-        fechas.push_back(fecha1);
+        vfechas.push_back(fecha1);
     }
     
-    Ordenar(vector_fechas,tamano_vector);
+    Ordenar(vfechas,tamano_vector);
     for (int i=1; i<=tamano_vector;i++){
         salida<< vfechas[i].dia;
         salida<< "/";

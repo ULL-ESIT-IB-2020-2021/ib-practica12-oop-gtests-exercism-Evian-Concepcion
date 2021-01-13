@@ -5,7 +5,7 @@
  
  */
 #include <iostream>
-#include "funciones_complejo.h"
+#include "complejo_funcion.h"
 
 
 

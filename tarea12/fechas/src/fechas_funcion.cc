@@ -9,7 +9,7 @@
 #include <vector>
 #include <string>
 #include "fechas_funcion.h"
-using namespace srd;
+using namespace std;
 
 /**
 
@@ -46,7 +46,7 @@ void comprobar(int argc, char* argv[]){
 
   if (argc== 2){
   string help ="--help";
-      if(argv[1]==ayuda){
+      if(argv[1]==help){
       cout<<"El programa recoge fechas de un input.txt y las ordenas en un output.txt por linea de comando"<< endl;
       cout<<"Ejemplo: ./fechas input.txt output.txt"<< endl;
       exit(EXIT_SUCCESS);
