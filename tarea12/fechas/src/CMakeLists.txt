@@ -28,14 +28,13 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 # Adds an executable target called "runTests" to be built from the source files listed in the command invocation.
 add_executable(runTests
     tests/gtests_main.cc
-    src/complejo_funcion.h
-    src/complejo_funcion.cc
-    tests/test_complejo.cc)
+    src/fechas_funcion.h
+    src/fechas_funcion.cc)
 
 add_executable(user_program
-    src/complejo_funcion.h
-    src/complejo_funcion.cc
-        src/complejo_main.cc)
+    src/fechas_funcion.h
+    src/fechas_funcion.cc
+        src/fechas_main.cc)
 
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
 
