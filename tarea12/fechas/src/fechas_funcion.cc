@@ -11,9 +11,7 @@
 #include "fechas_funcion.h"
 using namespace std;
 
-/**
 
- */
 bool Fecha::operator>(const Fecha& parametro){
   if(anio>parametro.anio){
     return true;
@@ -26,9 +24,7 @@ bool Fecha::operator>(const Fecha& parametro){
   }
   return false;
 }
-/**
- 
- */
+
 bool Fecha::leap() {
     if((anio %4)==0){
         return true;
@@ -37,10 +33,9 @@ bool Fecha::leap() {
 };
 
 /**
- * @brief Función que ayuda a saber como funciona el programa
- * 
- * @param argc 
- * @param argv 
+ @brief Función que ayuda a saber como funciona el programa
+ @param argc 
+ @param argv 
  */
 void comprobar(int argc, char* argv[]){
 
@@ -61,9 +56,8 @@ void comprobar(int argc, char* argv[]){
 }
 
 /**
- 
- * @param sin_ordenar 
- * @param vectsize 
+ @param sin_ordenar 
+ @param vectsize 
  */
 void Ordenar(vector<Fecha> &sin_ordenar, int vectsize){
   int x,y;

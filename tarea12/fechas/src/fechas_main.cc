@@ -1,9 +1,8 @@
 /**
- * @file fecha.cc
- * @author Evian Concepcion Peña
- * @brief Este programa trata por edio de linea de comando
+ @file fecha.cc
+ @author Evian Concepcion Peña
+ @brief Este programa trata por edio de linea de comando
  recoger un archivo que sobre escriba un contenido en otra
-
  */
 
 

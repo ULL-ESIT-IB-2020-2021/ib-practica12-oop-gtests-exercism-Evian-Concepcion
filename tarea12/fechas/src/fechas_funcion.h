@@ -1,9 +1,7 @@
 /**
- * @file fechas_fucion.h
- * @author Evian Concepcion Peña
- * @brief declarar funciones
- * 
- * 
+  @file fechas_fucion.h
+  @author Evian Concepcion Peña
+  @brief declarar funciones
  */
 
 #ifndef fechas_funcion_h_included
@@ -14,14 +12,13 @@
 #include <vector>
 using namespace std;
 /**
- * @param argc 
- * @param argv 
+ @param argc 
+ @param argv 
  */
 void comprobar(int argc, char* argv[]);
 
 /**
- * @brief class Fecha declaracion
- * 
+ @brief class Fecha declaracion 
  */
 class Fecha{
     public:
@@ -30,9 +27,8 @@ class Fecha{
         bool leap();
 };
 /**
-
- * @param sin_ordenar 
- * @param vectsize 
+ @param sin_ordenar 
+ @param vectsize 
  */
 void Ordenar(vector<Fecha> &fecha_para_ordenar, int tamano_vector);
 

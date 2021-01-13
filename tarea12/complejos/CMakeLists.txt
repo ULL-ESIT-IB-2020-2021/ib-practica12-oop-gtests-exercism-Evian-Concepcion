@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.1)  # Mandatory
 
 # set the project name 
-project(complejo                # Mandatory
+project(fecha                # Mandatory
     VERSION 1.0
-    DESCRIPTION "A simple CMake project for complejo "
+    DESCRIPTION "A simple CMake project for complejos "
     LANGUAGES CXX)
 
 # specify the C++ standard
@@ -29,7 +29,8 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 add_executable(runTests
     tests/gtests_main.cc
     src/complejo_funcion.h
-    src/complejo_funcion.cc)
+    src/complejo_funcion.cc
+    tests/tests_complejo.cc)
 
 add_executable(user_program
     src/complejo_funcion.h

@@ -11,8 +11,3 @@ TEST(Complejo, resta) {
     ASSERT_EQ(3, resta(5, 2));
     ASSERT_EQ(-10, resta(5, 15));
 }
-
-int main(int argc, char **argv) {
-    testing::GoogleTesting(&argc, argv);
-    return RUN_ALL_TESTS();
-}

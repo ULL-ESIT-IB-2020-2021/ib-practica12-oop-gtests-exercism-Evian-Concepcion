@@ -1,8 +1,7 @@
 /**
- * @file funciones_complejo.cc
- * @author Evian
- * @brief archivo de cabecera
- *
+ @file funciones_complejo.cc
+ @author Evian
+ @brief archivo de cabecera
  */
 #include <iostream>
 #include "complejo_funcion.h"
@@ -10,10 +9,10 @@ using namespace std;
 
 
 /**
- * @brief sumar
- * @param co
- * @param co1
- * @return Complejo 
+ @brief sumar
+ @param co
+ @param co1
+ @return Complejo 
  */
 Complejo suma(const Complejo& co, const Complejo& b2){
     Complejo resultado;
@@ -23,10 +22,10 @@ Complejo suma(const Complejo& co, const Complejo& b2){
 }
 
 /**
- * @brief restar
- * @param co 
- * @param co1 
- * @return Complejo 
+ @brief restar
+ @param co 
+ @param co1 
+ @return Complejo 
  */
 Complejo resta(const Complejo& co, const Complejo& co1){
     Complejo resultado;
@@ -35,19 +34,16 @@ Complejo resta(const Complejo& co, const Complejo& co1){
     return resultado;
 }
 
-/**
 
- */
 void Complejo::print(){
     std::cout<<real<<" "<<imaginario<<"i"<< endl;
 
 }
 
 /**
- * @brief pedir ayuda
- * 
- * @param argc 
- * @param argv 
+ @brief pedir ayuda
+ @param argc 
+ @param argv 
  */
 void help(int argc, char* argv[]){
     if(argc!= 1){
