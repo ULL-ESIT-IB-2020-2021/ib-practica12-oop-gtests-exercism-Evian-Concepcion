@@ -13,6 +13,6 @@ TEST(Complejo, resta) {
 }
 
 int main(int argc, char **argv) {
-    testing::InitGoogleTest(&argc, argv);
+    testing::GoogleTesting(&argc, argv);
     return RUN_ALL_TESTS();
 }
