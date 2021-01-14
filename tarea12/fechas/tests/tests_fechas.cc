@@ -1,13 +1,13 @@
 #include <gtest/gtest.h>
 #include "fechas_funcion.h"
 
-TEST(Complejo, suma){
-    ASSERT_EQ(2, suma(3, 1));
-    ASSERT_EQ(5, suma(2, 2));
-    ASSERT_EQ(10, suma(5, 4));
+TEST(Fecha, suma){
+    ASSERT_EQ(true, leap(3, 1));
+    ASSERT_EQ(false, leap(2, 2));
+    
 }
 
-TEST(Complejo, resta){
-    ASSERT_EQ(3, resta(5, 2));
-    ASSERT_EQ(-10, resta(5, 15));
+TEST(Fecha, resta){
+    ASSERT_EQ(false, resta(5, 2));
+    ASSERT_EQ(true, resta(5, 15));
 }
